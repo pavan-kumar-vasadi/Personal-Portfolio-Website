@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/0187b3ff9a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!-- ---------- Header Section ---------- -->
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img
+            src="https://uploads.onecompiler.io/43quxrqu5/43ybz8eph/WhatsApp_Image_2025-09-19_at_18.34.34_59112e0a-removebg-preview.png"
+            class="logo"
+            alt="Portfolio Logo"
+          />
+          <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-text">
+          <p>UI/UX Designer</p>
+          <h1>Hi, I'm <span>Pavan</span><br />Kumar From Vizag</h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- ---------- About Section ---------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img
+              src="https://uploads.onecompiler.io/43quxrqu5/43x755524/WhatsApp%20Image%202025-09-19%20at%2019.36.25_84038f0d.jpg"
+              alt="Pavan Kumar"
+            />
+          </div>
+
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              I am a BTech student at Vikas College Of Engineering And
+              Technology, passionate about Web Development. Currently building a
+              strong foundation in HTML, CSS, JS, React, and Node.js, with a
+              keen interest in applying my knowledge to real-world projects. I
+              am eager to learn, grow, and contribute in areas like Software
+              Development. I enjoy collaborating with others and am always
+              looking for opportunities to gain hands-on experience, expand my
+              network, and develop professionally.
+            </p>
+
+            <div class="tab-titles">
+              <p
+                class="tab-links active-link"
+                onclick="opentab(event, 'skills')"
+              >
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab(event, 'experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab(event, 'education')">
+                Education
+              </p>
+            </div>
+
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br />Designing Web/App interfaces</li>
+                <li>
+                  <span>Front-End Development</span><br />HTML, CSS, JavaScript,
+                  React.js
+                </li>
+                <li><span>Back-End Development</span><br />Node.js</li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>2021-2022</span><br />Poster Designer at Srinivasa Jr College</li>
+                <li><span>2023-2024</span><br />Web Development Projects at Vikas Engineering College</li>
+                <li><span>2024-2025</span><br />Responsive Design at FreeCodeCamp</li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2020</span><br />10th from KLP</li>
+                <li><span>2022</span><br />Intermediate at Srinivasa Jr College (CPP)</li>
+                <li><span>2027</span><br />B.Tech at Vikas Engineering College, Vijayawada</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ---------- Services Section ---------- -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>
+              Planning, designing, and creating the visual layout and user
+              experience of a website.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+
+          <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>UI/UX Design</h2>
+            <p>
+              Creating enjoyable and effective interactions with digital
+              products like websites and apps.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+
+          <div>
+            <i class="fa-brands fa-app-store-ios"></i>
+            <h2>App Design</h2>
+            <p>
+              Creating the visual and interactive elements of a mobile
+              application.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ---------- Portfolio Section ---------- -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img
+              src="https://uploads.onecompiler.io/43quxrqu5/43yudqcbk/img1.jpg"
+              alt="Social Media App"
+            />
+            <div class="layer">
+              <h3>Social Media App</h3>
+              <p>
+                A social media app is a digital platform that enables users to
+                connect and share content.
+              </p>
+              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img
+              src="https://uploads.onecompiler.io/43quxrqu5/43yudqcbk/img2.jpg"
+              alt="Poster Design"
+            />
+            <div class="layer">
+              <h3>Poster Design</h3>
+              <p>
+                Conceptualized and designed posters for college events,
+                workshops, and campaigns.
+              </p>
+              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img
+              src="https://uploads.onecompiler.io/43quxrqu5/43yudqcbk/img3.jpg"
+              alt="Online Shopping App"
+            />
+            <div class="layer">
+              <h3>Online Shopping App</h3>
+              <p>
+                A modern e-commerce design concept inspired by Flipkart, Amazon,
+                and Myntra.
+              </p>
+              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+
+    <!-- ---------- Contact Section ---------- -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i>
+              pavankumarvasadi@gmail.com
+            </p>
+            <p><i class="fa-solid fa-square-phone"></i> 9491497742</p>
+            <div class="social-icons">
+              <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a
+              href="https://uploads.onecompiler.io/43quxrqu5/43yuj4c66/Screenshot%202025-10-06%20195646.png"
+              download
+              class="btn btn2"
+              >Download CV</a
+            >
+          </div>
+
+          <div class="contact-right">
+            <form>
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ---------- Footer ---------- -->
+    <div class="copyright">
+      <p>
+        Copyright © Pavan. Made with
+        <i class="fa-solid fa-heart"></i> by Easy Tutorials
+      </p>
+    </div>
+
+    <!-- ---------- Script for Tabs ---------- -->
+    <script>
+      function opentab(evt, tabName) {
+        const tablinks = document.getElementsByClassName("tab-links");
+        const tabcontents = document.getElementsByClassName("tab-contents");
+
+        for (let link of tablinks) {
+          link.classList.remove("active-link");
+        }
+        for (let content of tabcontents) {
+          content.classList.remove("active-tab");
+        }
+
+        evt.currentTarget.classList.add("active-link");
+        document.getElementById(tabName).classList.add("active-tab");
+      }
+    </script>
+  </body>
+</html>
